@@ -7,11 +7,9 @@ import starter.ui.dashboard.FinancialOverview;
 public class OverviewData {
 
     public static Question<String> creditAvailable() {
-        return actor -> TextContent.of(FinancialOverview.CREDIT_AVAILABLE).viewedBy(actor).asString().trim();
+        return actor -> TextContent.of(DashboardPage.NAME_TITLE).viewedBy(actor).asString().trim();
     }
 
-    public static Question<String> totalBalance() {
-        return actor -> TextContent.of(FinancialOverview.TOTAL_BALANCE).viewedBy(actor).asString();
-    }
+
 
 }

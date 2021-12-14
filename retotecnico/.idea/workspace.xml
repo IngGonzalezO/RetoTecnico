@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00d3d4ba-766b-4c0b-8528-a59abe7ec843" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/starter/navigation/DuckDuckGoHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/starter/navigation/DuckDuckGoHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/starter/navigation/NavigateTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/starter/navigation/NavigateTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/starter/questions/dashboard/OverviewData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/starter/questions/dashboard/OverviewData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/starter/stepdefinitions/CommonStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/starter/stepdefinitions/DownloadStatementsStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/starter/stepdefinitions/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/starter/stepdefinitions/LoginStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/starter/stepdefinitions/SearchOnDuckDuckGoStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/starter/tasks/login/DoLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/starter/tasks/login/DoLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/starter/ui/dashboard/CreditAvailable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/starter/ui/dashboard/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/starter/ui/dashboard/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/starter/ui/dashboard/LeftMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/starter/ui/dashboard/LeftMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/starter/ui/login/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/starter/ui/login/LoginForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/starter/ui/search/SearchFor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/starter/ui/search/SearchForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/starter/ui/search/SearchResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/starter/ui/search/SearchResultList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="22FGHlh1P5jAUXQBArF59ER3gLY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00d3d4ba-766b-4c0b-8528-a59abe7ec843" name="Changes" comment="" />
+      <created>1639425836285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639425836285</updated>
+    </task>
+    <servers />
+  </component>
+</project>

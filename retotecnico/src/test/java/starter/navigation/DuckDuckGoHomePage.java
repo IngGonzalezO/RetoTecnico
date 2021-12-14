@@ -3,6 +3,6 @@ package starter.navigation;
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;
 
-@DefaultUrl("https://demo.applitools.com")
+@DefaultUrl("https://www.utest.com/signup/personal")
 public class DuckDuckGoHomePage extends PageObject {
 }

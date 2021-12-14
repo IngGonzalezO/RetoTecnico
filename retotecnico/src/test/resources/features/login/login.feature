@@ -1,26 +1,26 @@
 Feature: Login into the application
 
   @login
-  Scenario: Successful login
-    Given Maira has an active account
-    When he sends their valid credentials
-    Then he should have access to manage his account
+  Scenario: Successful register
+    Given Maira wants to register an account.
+    When she sends their valid credentials
+    Then she should be able to create her account.
 
   @dev
-  Scenario: Successful login 2
-    Given Maira has an active account
-    When he sends their valid credentials
-    Then he should have access t  o manage his account
+  Scenario: Successful register 2
+    Given Maira wants to register an account.
+    When she sends their valid credentials
+    Then she should be able to create her account.
 
   @dev
-  Scenario: Successful login 3
-    Given Maira has an active account
-    When he sends their valid credentials
-    Then he should have access to manage his account
+  Scenario: Successful register 3
+    Given Maira wants to register an account.
+    When she sends their valid credentials
+    Then she should be able to create her account.
 
 
   @dev
-  Scenario: Successful login 4
-    Given Maira has an active account
-    When he sends their valid credentials
-    Then he should have access to manage his account
+  Scenario: Successful register 4
+    Given Maira wants to register an account.
+    When she sends their valid credentials
+    Then she should be able to create her account.

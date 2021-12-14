@@ -18,34 +18,36 @@ public class LoginStepDefinitions {
 
     String name;
 
-    @Given("(.*) has an active account")
+    @Given("(.*) wants to register an account.")
     public void has_an_active_account(String name) {
         this.name = name;
     }
 
-    @When("he sends their valid credentials")
+    @When("she sends their valid credentials")
     public void he_sends_their_valid_credentials() {
         theActorCalled(name).attemptsTo(
                 NavigateTo.theDuckDuckGoHomePage(),
-                Login
-                        .with()
-                        .username("Maira")
-                        .and()
-                        .password("seguridad")
-                        .and()
-                        .rememberMe()
+                DoLogin.withCredentials(
+                        name = "Maira",
+                        lastname = "González",
+                        email = "gonzalez12an12@gmail.com",
+                        birthmonth = "July",
+                        birthday = "11", birthyear = "1999", zip = "0000",
+                        password = "seguridad",
+                        conpassword = "Seguridad22"
+                )
         );
     }
 
-    @Then("he should have access to manage his account")
+    @Then("she should be able to create her account.")
     public void he_should_have_access_to_manage_his_account() {
         theActorInTheSpotlight().should(
-                seeThat("The displayed credit available", OverviewData.creditAvailable(), equalTo("$17,800")),
-                seeThat("The displayed credit available", OverviewData.creditAvailable(), equalTo("$17,800"))
+                seeThat("The displayed", OverviewData.creditAvailable(), equalTo("Welcome to the world's largest community of freelance software testers!")),
+                seeThat("The displayed", OverviewData.creditAvailable(), equalTo("Welcome to the world's largest community of freelance software testers!"))
         );
 
         theActorInTheSpotlight().attemptsTo(
-                Click.on(DashboardPage.LEFT_MENU.CREDIT_CARD_LINK)
+                Click.on(DashboardPage.LEFT_MENU.NAME_TITLE)
         );
     }
 }
